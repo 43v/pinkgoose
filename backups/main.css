@@ -1,0 +1,277 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #0b1218;
+}
+
+@font-face {
+  font-family: "Mont";
+  src: url("fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("fonts/Lato-Regular.ttf") format("truetype");
+}
+
+.nav {
+  width: 100%;
+  height: 206px;
+  background-color: #0b1218;
+  display: flex;
+  flex-direction: row;
+}
+
+.logosectie {
+  width: 33%;
+  height: 106px;
+  align-items: center;
+  display: flex;
+  margin-left: 270px;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.pink {
+  /* Corrected class name */
+  font-size: 30px;
+  font-family: "Mont", sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-right: 10px;
+}
+
+.goose {
+  /* Corrected class name */
+  color: #ffb4d3;
+  font-size: 30px;
+  font-family: "Mont", sans-serif;
+  font-weight: bold;
+}
+
+.buttonsectie {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -270px;
+  margin-bottom: 95px;
+}
+
+.buttonsectie a {
+  margin: 0 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white; /* Maak dit later wit */
+  font-family: "Mont", sans-serif;
+}
+
+.loginsectie {
+  width: 33%;
+  height: 106px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.loginbutton {
+  background-color: #243241;
+  color: white;
+  border-radius: 6px;
+  margin-left: -250px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 7px 15px;
+  font-family: "Mont", sans-serif;
+}
+
+.theEasiestSectie {
+  width: 100%;
+  height: 425px;
+  background-color: #0b1218;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.theeasiest,
+.tostart {
+  font-size: 72px;
+  color: white;
+  text-align: center; /* Ensure text is centered in its line */
+  font-family: "Lato", sans-serif;
+}
+
+.anall,
+.adecent {
+  font-size: 26px;
+  color: white;
+  text-align: center; /* Ensure text is centered in its line */
+  font-family: "Lato", sans-serif;
+  margin-top: 20px;
+}
+
+.startnow {
+  background-color: #d0acfc; /* Button background color */
+  color: black; /* Button text color */
+  border-radius: 6px; /* Rounded corners */
+  font-family: "Mont", sans-serif; /* Font style */
+  margin-top: 30px; /* Space above the button */
+  font-size: 17px; /* Change this value for text size */
+  padding: 12px 35px; /* Adjust padding for button size */
+  border: none; /* Optional: remove border */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  font-weight: bold;
+}
+
+.arrowSectie {
+  width: 100%;
+  height: 25px;
+  background-color: #0b1218;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.pinkarrow {
+  height: auto;
+  width: 20px;
+}
+
+.readyForSectie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #0b1218;
+  position: relative;
+}
+
+.sparkles1 {
+  position: absolute;
+  left: 360px;
+}
+
+.readyFor {
+  font-size: 50px;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+.daosectie1 {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #0b1218;
+  gap: 20px;
+}
+
+.investDAO {
+  background-color: #2a3744;
+  color: #ffb4d3;
+  border-radius: 30px;
+
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 12px 20px;
+  font-family: "Mont", sans-serif;
+}
+
+.startDAO {
+  background-color: #2a3744;
+  color: #ffc24c;
+  border-radius: 30px;
+
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 12px 20px;
+  font-family: "Mont", sans-serif;
+}
+
+.serviceDAO {
+  background-color: #2a3744;
+  color: #d387f7;
+  border-radius: 30px;
+
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 12px 20px;
+  font-family: "Mont", sans-serif;
+}
+
+.commDAO {
+  background-color: #2a3744;
+  color: #77e6ff;
+  border-radius: 30px;
+
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 12px 20px;
+  font-family: "Mont", sans-serif;
+}
+
+
+.daosectie2 {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #0b1218;
+  gap: 20px;
+  gap: 20px;
+}
+
+
+.impactDAO {
+  background-color: #2a3744;
+  color: #23C9DE;
+  border-radius: 30px;
+
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 12px 20px;
+  font-family: "Mont", sans-serif;
+}
+
+.defiDAO {
+  background-color: #2a3744;
+  color: #FF9E9E;
+  border-radius: 30px;
+
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 12px 20px;
+  font-family: "Mont", sans-serif;
+}
+
+.moreDAO {
+  background-color: #2a3744;
+  color: #505F6D;
+  border-radius: 30px;
+
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 12px 20px;
+  font-family: "Mont", sans-serif;
+}
