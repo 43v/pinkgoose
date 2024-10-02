@@ -279,7 +279,7 @@ a {
   align-items: flex-start;
   width: 100%;
   height: 470px;
-  background-color:#0b1218;
+  background-color: #0b1218;
   position: relative;
 }
 
@@ -291,7 +291,7 @@ a {
 
 .projectsbutton {
   background-color: #ffb4d3;
-  color: #0A1117;
+  color: #0a1117;
   border-radius: 30px;
   font-weight: bold;
   border: none;
@@ -303,3 +303,144 @@ a {
   margin-top: 370px;
   border: 2px solid black; /* Add a border */
 }
+
+.designedFor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #0b1218;
+}
+
+.designed {
+  color: #e5e5e5;
+  font-size: 35px;
+  font-family: "Lato", sans-serif;
+}
+
+.sparkles2 {
+  margin-right: -600px;
+  position: absolute;
+}
+
+.organisationFor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  background-color: #0b1218;
+  flex-direction: column;
+}
+
+.organisation {
+  color: #37424d;
+  font-size: 35px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.smartContract {
+  color: #37424d;
+  font-size: 35px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.fund {
+  color: #37424d;
+  font-size: 35px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.launchMarketing {
+  color: #ffb4d3;
+  font-size: 35px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.memberOnboarding {
+  color: #37424d;
+  font-size: 35px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.contributor {
+  color: #37424d;
+  font-size: 35px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.goosee {
+  color: #37424d;
+  font-size: 35px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.cdd {
+  margin-top: 15px;
+}
+
+.worksWithSectie {
+  width: 100%;
+  height: 80px;
+  background-color: #0b1218;
+  margin-top: 130px;
+  display: flex; /* Add this line */
+  align-items: center; /* Add this line */
+  justify-content: center; /* Add this line */
+  flex-wrap: wrap;
+}
+
+.worksWith {
+  color: white;
+  font-size: 35px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+
+  position: absolute;
+}
+
+.sparklez1 {
+  margin-left: -400px;
+  position: absolute;
+  margin-right: 250px;
+  margin-top: -60px;
+  height: auto;
+  width: 50px;
+}
+
+.sparklez2 {
+  position: absolute;
+  margin-right: -350px;
+  margin-top: -50px;
+  height: auto;
+  width: 50px;
+}
+
+
+.bitcoinSectie {
+  width: 100%;
+  height: 280px;
+  background-color: red;
+}
+
+.bitcoin1 {
+  background-color: #243241;
+  color: white;
+  border-radius: 6px;
+
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 40px 40px;
+  font-family: "Mont", sans-serif;
+  
+}
+
