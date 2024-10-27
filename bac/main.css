@@ -25,7 +25,7 @@
     flex-direction: row;
   }
 
-  .logo-sectie {
+  .logosectie {
     width: 33%;
     height: 106px;
     align-items: center;
@@ -54,7 +54,7 @@
     font-weight: bold;
   }
 
-  .button-sectie {
+  .buttonsectie {
     width: 33%;
     display: flex;
     justify-content: center;
@@ -63,7 +63,7 @@
     margin-bottom: 95px;
   }
 
-  .button-sectie a {
+  .buttonsectie a {
     margin: 0 15px;
   }
 
@@ -74,7 +74,7 @@
     font-family: "Mont", sans-serif;
   }
 
-  .login-sectie {
+  .loginsectie {
     width: 33%;
     height: 106px;
     justify-content: center;
@@ -82,7 +82,7 @@
     display: flex;
   }
 
-  .login-button {
+  .loginbutton {
     background-color: #243241;
     color: white;
     border-radius: 6px;
@@ -94,7 +94,7 @@
     font-family: "Mont", sans-serif;
   }
 
-  .the-easiest-sectie {
+  .theEasiestSectie {
     width: 100%;
     height: 425px;
     background-color: #0b1218;
@@ -103,8 +103,8 @@
     display: flex;
   }
 
-  .the-easiest,
-  .to-start {
+  .theeasiest,
+  .tostart {
     font-size: 72px;
     color: white;
     text-align: center;
@@ -112,8 +112,8 @@
     font-family: "Lato", sans-serif;
   }
 
-  .an-all,
-  .a-decent {
+  .anall,
+  .adecent {
     font-size: 26px;
     color: white;
     text-align: center;
@@ -122,7 +122,7 @@
     margin-top: 20px;
   }
 
-  .start-now {
+  .startnow {
     background-color: #d0acfc;
     /* Button background color */
     color: black;
@@ -144,7 +144,7 @@
     font-weight: bold;
   }
 
-  .arrow-Sectie {
+  .arrowSectie {
     width: 100%;
     height: 25px;
     background-color: #0b1218;
@@ -153,12 +153,12 @@
     display: flex;
   }
 
-  .pink-arrow {
+  .pinkarrow {
     height: auto;
     width: 20px;
   }
 
-  .ready-For-Sectie {
+  .readyForSectie {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,13 +173,13 @@
     left: 360px;
   }
 
-  .ready-For {
+  .readyFor {
     font-size: 50px;
     color: white;
     font-family: "Lato", sans-serif;
   }
 
-  .dao-sectie1 {
+  .daosectie1 {
     width: 100%;
     height: 80px;
     display: flex;
@@ -190,7 +190,7 @@
     gap: 20px;
   }
 
-  .invest-DAO {
+  .investDAO {
     background-color: #2a3744;
     color: #ffb4d3;
     border-radius: 30px;
@@ -199,10 +199,10 @@
     font-size: 15px;
     cursor: pointer;
     padding: 12px 20px;
-    font-family: "Lato", sans-serif;
+    font-family: "Lato  ", sans-serif;
   }
 
-  .start-DAO {
+  .startDAO {
     background-color: #2a3744;
     color: #ffc24c;
     border-radius: 30px;
@@ -214,7 +214,7 @@
     font-family: "Lato", sans-serif;
   }
 
-  .service-DAO {
+  .serviceDAO {
     background-color: #2a3744;
     color: #d387f7;
     border-radius: 30px;
@@ -226,7 +226,7 @@
     font-family: "Lato", sans-serif;
   }
 
-  .comm-DAO {
+  .commDAO {
     background-color: #2a3744;
     color: #77e6ff;
     border-radius: 30px;
@@ -238,7 +238,7 @@
     font-family: "Lato", sans-serif;
   }
 
-  .dao-sectie2 {
+  .daosectie2 {
     width: 100%;
     height: 50px;
     display: flex;
@@ -250,7 +250,7 @@
     gap: 20px;
   }
 
-  .impact-DAO {
+  .impactDAO {
     background-color: #2a3744;
     color: #23c9de;
     border-radius: 30px;
@@ -262,7 +262,7 @@
     font-family: "Lato", sans-serif;
   }
 
-  .defi-DAO {
+  .defiDAO {
     background-color: #2a3744;
     color: #ff9e9e;
     border-radius: 30px;
@@ -273,7 +273,7 @@
     font-family: "Lato", sans-serif;
   }
 
-  .more-DAO {
+  .moreDAO {
     background-color: #2a3744;
     color: #505f6d;
     border-radius: 30px;
@@ -285,7 +285,7 @@
     font-family: "Lato", sans-serif;
   }
 
-  .projecten-Sectie {
+  .projectenSectie {
     display: flex;
     justify-content: center;
     /* Centers the content horizontally */
@@ -302,7 +302,7 @@
     height: auto;
   }
 
-  .projects-button {
+  .projectsbutton {
     background-color: #ffb4d3;
     color: #0a1117;
     border-radius: 30px;
@@ -318,7 +318,7 @@
     /* Add a border */
   }
 
-  .designed-For {
+  .designedFor {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -338,7 +338,7 @@
     position: absolute;
   }
 
-  .organisation-For {
+  .organisationFor {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -355,7 +355,7 @@
     font-weight: bold;
   }
 
-  .smart-Contract {
+  .smartContract {
     color: #37424d;
     font-size: 35px;
     font-family: "Lato", sans-serif;
@@ -369,14 +369,14 @@
     font-weight: bold;
   }
 
-  .launch-Marketing {
+  .launchMarketing {
     color: #ffb4d3;
     font-size: 35px;
     font-family: "Lato", sans-serif;
     font-weight: bold;
   }
 
-  .member-Onboarding {
+  .memberOnboarding {
     color: #37424d;
     font-size: 35px;
     font-family: "Lato", sans-serif;
@@ -401,7 +401,7 @@
     margin-top: 15px;
   }
 
-  .works-With-Sectie {
+  .worksWithSectie {
     width: 100%;
     height: 80px;
     background-color: #0b1218;
@@ -415,7 +415,7 @@
     flex-wrap: wrap;
   }
 
-  .works-With {
+  .worksWith {
     color: white;
     font-size: 35px;
     font-family: "Lato", sans-serif;
@@ -441,7 +441,7 @@
     width: 50px;
   }
 
-  .bitcoin-Sectie {
+  .bitcoinSectie {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -482,18 +482,18 @@
   .bitcoin5 img,
   .bitcoin6 img {
     width: 50px;
-
+    /* Ensure consistent image width */
     height: auto;
-
+    /* Maintain aspect ratio */
   }
 
-  .bitcoin-text {
+  .bitcointext {
     margin-top: 20px;
     background-color: #0b1218;
     height: 170px;
   }
 
-  .bitcoin-text1 {
+  .bitcointext1 {
     color: #e5e5e5;
     font-size: 20px;
     font-family: "Lato", sans-serif;
@@ -502,7 +502,7 @@
 
   }
 
-  .bitcoin-text2 {
+  .bitcointext2 {
     color: #e5e5e5;
     font-size: 20px;
     font-family: "Lato", sans-serif;
@@ -510,7 +510,7 @@
 
   }
 
-  .bitcoin-text3 {
+  .bitcointext3 {
     color: #e5e5e5;
     font-size: 20px;
     font-family: "Lato", sans-serif;
@@ -518,7 +518,7 @@
 
   }
 
-  .bitcoin-text4 {
+  .bitcointext4 {
     color: #e5e5e5;
 
     font-family: "Lato", sans-serif;
@@ -527,7 +527,7 @@
   }
 
 
-  .bitcoin-text5 {
+  .bitcointext5 {
     color: #e5e5e5;
     margin-left: 110px;
     font-family: "Lato", sans-serif;
@@ -536,7 +536,7 @@
   }
 
 
-  .bitcoin-text6 {
+  .bitcointext6 {
     color: #e5e5e5;
     font-size: 20px;
     font-family: "Lato", sans-serif;
@@ -544,189 +544,11 @@
 
   }
 
-  .helps-at-sectie {
-    margin-bottom: 120px;
-    width: 59.5%;
-    margin: auto;
+  .worksat {
 
-    margin-bottom: 120px;
-    background-color: #0b1218;
-    height: 500px;
-  }
-
-  .filler1 {
     width: 100%;
-    height: 150px;
+    height: 600px;
     background-color: #0b1218;
-  }
-
-  .helps-at-text {
-    text-align: center;
-    font-size: 40px;
-    font-family: "Lato", sans-serif;
-    color: white;
-
-  }
-
-  .filler2 {
-    width: 100%;
-    height: 40px;
-    background-color: #0b1218;
-  }
-
-  .d {
-    width: auto;
-    height: 110px;
-  }
-
-  .image-container {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: center;
-
-  }
-
-  .filler3 {
-    width: 100%;
-    height: 40px;
-    background-color: #0b1218;
-  }
-
-
-
-
-  .row {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10%;
-    gap: 20px
-  }
-
-  .row2 {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10%;
-    gap: 20px
-  }
-
-  .row3 {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10%;
-    gap: 20px
-  }
-
-  .row4 {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10%;
-    gap: 20px
-  }
-
-
-  .menstext1 {
-    font-family: "Lato", sans-serif;
-    color: white;
-    font-size: 30px;
-  }
-
-  .menstext2 {
-    font-family: "Lato", sans-serif;
-    color: white;
-    font-size: 30px;
-
-  }
-
-  .menstext3 {
-    font-family: "Lato", sans-serif;
-    color: white;
-    font-size: 30px;
-  }
-
-  .menstext4 {
-    font-family: "Lato", sans-serif;
-    color: white;
-    font-size: 30px;
-
-  }
-
-  .menstext5 {
-    font-family: "Lato", sans-serif;
-    color: white;
-    font-size: 30px;
-
-  }
-
-  .menstext6 {
-    font-family: "Lato", sans-serif;
-    color: white;
-    font-size: 30px;
-
-  }
-
-  .menstext7 {
-    font-family: "Lato", sans-serif;
-    color: white;
-    font-size: 30px;
-
-  }
-
-  .menstext8 {
-    font-family: "Lato", sans-serif;
-    color: white;
-    font-size: 30px;
-
-  }
-
-  .menstext9 {
-    font-family: "Lato", sans-serif;
-    color: white;
-    font-size: 30px;
-
-  }
-
-
-  .star-blauw {
-    height: 20px;
-    width: auto;
-  }
-
-  .star-geel {
-    height: 20px;
-    width: auto;
-  }
-
-  .star-groen {
-    height: 20px;
-    width: auto;
-  }
-
-  .star-paars {
-    height: 20px;
-    width: auto;
-  }
-
-  .star-oranje {
-    height: 20px;
-    width: auto;
-  }
-
-  .star-blauw {
-    height: 30px;
-    width: auto;
   }
 
   .mensen {
@@ -738,7 +560,7 @@
   }
 
 
-  .weekly-digest {
+  .weeklydigest {
 
     width: 100%;
     height: 420px;
@@ -746,7 +568,7 @@
 
   }
 
-  .email-balk {
+  .emailbalk {
     width: 900px;
     height: 330px;
     background-color: #121e29;
@@ -759,8 +581,6 @@
     border-style: solid;
 
   }
-
-
 
   .weekly {
     color: white;
@@ -785,7 +605,7 @@
     padding-left: 50px;
   }
 
-  .email-text {
+  .emailtext {
 
     flex-direction: column;
     display: flex;
@@ -804,7 +624,7 @@
     margin-right: auto;
   }
 
-  .email-balk2 {
+  .emailbalk2 {
     width: 380px;
     /* Increase the width */
     height: 60px;
@@ -830,7 +650,7 @@
 
   }
 
-  .subscribe-text {
+  subscribetext {
 
     color: white;
     align-items: center;
@@ -838,7 +658,7 @@
     font-family: "Lato", sans-serif;
   }
 
-  .press-star {
+  .pressstar {
 
     width: 100%;
     height: 50px;
@@ -874,7 +694,7 @@
 
   .new-body {
     margin-bottom: 120px;
-    width: 58.5%;
+    width: 59.5%;
     margin: auto;
 
     margin-bottom: 120px;
@@ -891,7 +711,7 @@
 
   }
 
-  .see-all {
+  .seeall {
     color: #8395A7;
     font-size: 20px;
     font-family: "Lato", sans-serif;
@@ -909,7 +729,7 @@
 
   }
 
-  .see-pijl {
+  .seepijl {
     margin-top: -26px;
 
   }
@@ -949,7 +769,7 @@
     display: flex;
   }
 
-  .press1-text1 {
+  .press1text1 {
     color: black;
     font-size: 17px;
     font-family: "Mont", sans-serif;
@@ -960,7 +780,7 @@
     margin-top: 2%;
   }
 
-  .press1-text2 {
+  .press1text2 {
     color: black;
     font-size: 13px;
 
@@ -969,7 +789,7 @@
     margin-top: 2%;
   }
 
-  .press1-link {
+  .press1link {
     color: black;
     margin: 7%;
 
@@ -986,13 +806,13 @@
 
 
 
-  .press1-column {
+  .press1column {
     display: flex;
     flex-direction: column;
 
   }
 
-  .press2-column {
+  .press2column {
     display: flex;
     flex-direction: column;
 
@@ -1006,7 +826,7 @@
 
   }
 
-  .press2-text1 {
+  .press2text1 {
     color: black;
     font-size: 17px;
     font-family: "Mont", sans-serif;
@@ -1015,7 +835,7 @@
     margin-top: 2%;
   }
 
-  .press2-text2 {
+  .press2text2 {
     color: black;
     font-size: 13px;
     font-family: "Mont", sans-serif;
@@ -1024,26 +844,26 @@
 
   }
 
-  .press2-link {
+  .press2link {
     color: black;
     margin: 8%;
     margin-top: 10px;
   }
 
 
-  .press3-column {
+  .press3column {
     display: flex;
     flex-direction: column;
 
   }
 
-  .tech-crunch {
+  .techcrunch {
     height: 20px;
     width: 150px;
     margin: 10%;
   }
 
-  .press3-text1 {
+  .press3text1 {
     color: black;
     font-size: 17px;
     font-family: "Mont", sans-serif;
@@ -1052,7 +872,7 @@
     margin-top: -10px;
   }
 
-  .press3-text2 {
+  .press3text2 {
     color: black;
     font-size: 13px;
     font-family: "Mont", sans-serif;
@@ -1061,7 +881,7 @@
 
   }
 
-  .press3-link {
+  .press3link {
     color: black;
     margin: 10%;
     margin-top: 25px;
@@ -1116,7 +936,7 @@
   }
 
 
-  .podcast1-text1 {
+  .podcast1text1 {
     color: white;
     font-size: 17px;
     font-family: "Mont", sans-serif;
@@ -1127,7 +947,7 @@
     margin-top: 2%;
   }
 
-  .podcast1-text2 {
+  .podcast1text2 {
     color: #E2E2E2;
     font-size: 13px;
 
@@ -1136,7 +956,7 @@
     margin-top: 2%;
   }
 
-  .podcast1-text3 {
+  .podcast1text3 {
     color: #E2E2E2;
     font-size: 13px;
 
@@ -1146,7 +966,7 @@
   }
 
 
-  .podcast1-link {
+  .podcast1link {
     color: white;
     margin: 5%;
 
@@ -1163,13 +983,13 @@
 
 
 
-  .podcast1-column {
+  .podcast1column {
     display: flex;
     flex-direction: column;
 
   }
 
-  .podcast2-column {
+  .podcast2column {
     display: flex;
     flex-direction: column;
 
@@ -1185,7 +1005,7 @@
   }
 
 
-  .podcast2-text1 {
+  .podcast2text1 {
     color: white;
     font-size: 17px;
     font-family: "Mont", sans-serif;
@@ -1194,7 +1014,7 @@
     margin-top: 2%;
   }
 
-  .podcast2-text2 {
+  .podcast2text2 {
     color: #E2E2E2;
     font-size: 13px;
     font-family: "Mont", sans-serif;
@@ -1203,7 +1023,7 @@
 
   }
 
-  .podcast2-text3 {
+  .podcast2text3 {
     color: #E2E2E2;
     font-size: 13px;
 
@@ -1213,14 +1033,14 @@
   }
 
 
-  .podcast2-link {
+  .podcast2link {
     color: white;
     margin: 5%;
     margin-top: 10px;
   }
 
 
-  .podcast3-column {
+  .podcast3column {
     display: flex;
     flex-direction: column;
 
@@ -1238,7 +1058,7 @@
 
   }
 
-  .podcast3-text1 {
+  .podcast3text1 {
     color: white;
     font-size: 17px;
     font-family: "Mont", sans-serif;
@@ -1247,32 +1067,32 @@
     margin-top: 5px;
   }
 
-  .podcast3-text2 {
+  .podcast3text2 {
     color: #E2E2E2;
     font-size: 13px;
     font-family: "Mont", sans-serif;
     margin: 5%;
-    margin-top: 5%;
+    margin-top: -5%;
 
   }
 
-  .podcast3-text3 {
+  .podcast3text3 {
     color: #E2E2E2;
     font-size: 13px;
 
     font-family: "Mont", sans-serif;
     margin: 5%;
-    margin-top: 3%;
+    margin-top: 2%;
   }
 
 
-  .podcast3-link {
+  .podcast3link {
     color: white;
     margin: 5%;
-    margin-top: 10px;
+    margin-top: 25px;
   }
 
-  .pod-sparkle2 {
+  .podsparkle2 {
     height: auto;
     width: 60px;
     display: block;
@@ -1284,7 +1104,7 @@
   .divider2 {
     height: 40px;
 
-    background-color: #0b1218;
+    background-color: #0a1117;
 
   }
 
@@ -1297,7 +1117,7 @@
   }
 
 
-  .goose-idea {
+  .gooseidea {
     color: white;
     font-size: 40px;
     font-family: "Lato", sans-serif;
@@ -1307,7 +1127,7 @@
   }
 
 
-  .whats-your {
+  .whatsyour {
     color: white;
     font-size: 30px;
     font-family: "Lato", sans-serif;
@@ -1335,13 +1155,7 @@
     height: 80px;
     background-color: #FFC803;
     border-radius: 15px;
-    display: flex;
-    flex-direction: row;
-  }
 
-  .telegram-textcolumn {
-    display: flex;
-    flex-direction: column;
 
   }
 
@@ -1349,184 +1163,100 @@
     width: 250px;
     height: 80px;
     background-color: #e2c1f9;
-    ;
     border-radius: 15px;
-    display: flex;
-    flex-direction: row;
+ 
   }
 
 
   .balken {
     display: flex;
     justify-content: center;
-
+    
     gap: 30px;
 
   }
 
   .telegram-foto {
-    margin-top: 14px;
+    margin-top: 12px;
     margin-left: 15px;
-    height: 50px;
-    width: auto
   }
 
   .email-foto {
     margin-top: 12px;
     margin-left: 15px;
-    height: 50px;
-    width: auto
   }
 
-  .footer {
-    background-color: #121E28;
-    width: 100%;
-    height: 120px;
-    display: flex;
-    flex-direction: row;
-  }
+.footer {
+background-color: #121E28;
+width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+}
 
-  .footer1 {
-    background-color: #121E28;
-    ;
-    width: 40%;
+.footer1 {
+  background-color: #121E28;;
+  width: 40%;
     height: 120px;
   }
 
   .footer2 {
-    background-color: #121E28;
-    ;
+    background-color: #121E28;;
     width: 20%;
-    height: 120px;
-  }
+      height: 120px;
+    }
 
-  .footer3 {
-    background-color: #121E28;
-    width: 40%;
-    height: 120px;
-  }
+    .footer3 {
+      background-color: #121E28;
+      width: 40%;
+        height: 120px;
+      }
 
-  .footer-text-center {
+      .footertextcenter {
+    
+     margin-top: 50px;
+   justify-content: space-between;
+        text-align: center; /* Center text */
+margin-left: 22px;
+      }
+      
+      .footer2text1 {
+        color: white;
+        margin-right: 30px;
+      }
 
-    margin-top: 50px;
-    justify-content: space-between;
-    text-align: center;
-    /* Center text */
-    margin-left: 29px;
-  }
+      .footer2text2 {
+        color: white;
+        margin-right: 30px;
+      }
 
-  .footer2-text1 {
-    color: white;
-    margin-right: 30px;
-  }
+      .footer2text3 {
+color: #ffb818;
+        margin-right: 30px;
+      }
 
-  .footer2-text2 {
-    color: white;
-    margin-right: 30px;
-  }
+    
+      .twitterfooter{
+margin-top: 30px;
+        height: auto;
+        width: 50px;
+        gap: 50px;
+      }
 
-  .footer2-text3 {
-    color: #ffb818;
-    margin-right: 30px;
-  }
+      .telegramfooter{
+margin-left: 10px;
+        height: auto;
+        width: 50px;
+      }
+    
+      .youtubefooter{
+        margin-left: 10px;
+        height: auto;
+        width: 50px;
+      }
 
-
-  .twitter-footer {
-    margin-top: 30px;
-    height: auto;
-    width: 50px;
-    gap: 50px;
-  }
-
-  .telegram-footer {
-    margin-left: 10px;
-    height: auto;
-    width: 50px;
-  }
-
-  .youtube-footer {
-    margin-left: 10px;
-    height: auto;
-    width: 50px;
-  }
-
-  .discord-footer {
-    margin-left: 10px;
-    height: auto;
-    width: 50px;
-  }
-
-  .telegram-text1 {
-    font-size: 23px;
-    margin-top: 8%;
-    columns: #4D3705;
-    margin-left: 10px;
-    font-family: "Mont", sans-serif;
-    font-weight: bold;
-  }
-
-  .telegram-text2 {
-    font-size: 17px;
-    margin-left: 9px;
-    color: #4D3705;
-    margin-top: 2px;
-    font-family: "Mont", sans-serif;
-  }
-
-
-  .email-text1 {
-    font-size: 23px;
-    margin-top: 10px;
-    columns: #4D3705;
-    margin-left: 10px;
-    font-family: "Mont", sans-serif;
-    font-weight: bold;
-  }
-
-  .email-text2 {
-    font-size: 17px;
-    margin-left: 9px;
-    color: #4D3705;
-    margin-top: 2px;
-    font-family: "Mont", sans-serif;
-  }
-
-  .email-text-column {
-
-    display: flex;
-    flex-direction: column;
-
-  }
-
-
-  .send-a-post {
-
-    width: 100%;
-    height: 800px;
-    background-color: #23c9de;
-  }
-
-
-  .post-half1 {
-    width: 100%;
-    height: 90%;
-    background-color: #4D3705;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .post-half2 {
-    width: 100%;
-    height: 10%;
-    background-color: grey;
-  }
-
-
-  .send-a-post {
-    text-align: center;
-    color: white;
-    text-align: center;
-
-    font-family: "Lato", sans-serif;
-
-  }
+      .discordfooter{
+        margin-left: 10px;
+        height: auto;
+        width: 50px;
+      }

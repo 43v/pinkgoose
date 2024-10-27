@@ -593,49 +593,48 @@
     background-color: #0b1218;
   }
 
-
+  
 
 
   .row {
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10%;
-    gap: 20px
+display: flex;
+flex-direction: row;
+justify-content: center; 
+align-items: center;  
+margin-right: 10%;
+gap: 20px
   }
 
   .row2 {
 
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; 
+    align-items: center;  
     margin-right: 10%;
     gap: 20px
-  }
+      }
 
-  .row3 {
+      .row3 {
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10%;
-    gap: 20px
-  }
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        align-items: center;  
+        margin-right: 10%;
+        gap: 20px
+          }
+          .row4 {
 
-  .row4 {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10%;
-    gap: 20px
-  }
-
+            display: flex;
+            flex-direction: row;
+            justify-content: center; 
+            align-items: center;  
+            margin-right: 10%;
+            gap: 20px
+              }
+        
 
   .menstext1 {
     font-family: "Lato", sans-serif;
@@ -698,12 +697,12 @@
 
   }
 
-
+   
   .star-blauw {
     height: 20px;
     width: auto;
   }
-
+   
   .star-geel {
     height: 20px;
     width: auto;
@@ -718,7 +717,6 @@
     height: 20px;
     width: auto;
   }
-
   .star-oranje {
     height: 20px;
     width: auto;
@@ -759,8 +757,6 @@
     border-style: solid;
 
   }
-
-
 
   .weekly {
     color: white;
@@ -874,7 +870,7 @@
 
   .new-body {
     margin-bottom: 120px;
-    width: 58.5%;
+    width: 59.5%;
     margin: auto;
 
     margin-bottom: 120px;
@@ -1284,7 +1280,7 @@
   .divider2 {
     height: 40px;
 
-    background-color: #0b1218;
+    background-color: #0a1117;
 
   }
 
@@ -1335,13 +1331,7 @@
     height: 80px;
     background-color: #FFC803;
     border-radius: 15px;
-    display: flex;
-    flex-direction: row;
-  }
 
-  .telegram-textcolumn {
-    display: flex;
-    flex-direction: column;
 
   }
 
@@ -1349,10 +1339,8 @@
     width: 250px;
     height: 80px;
     background-color: #e2c1f9;
-    ;
     border-radius: 15px;
-    display: flex;
-    flex-direction: row;
+
   }
 
 
@@ -1365,17 +1353,13 @@
   }
 
   .telegram-foto {
-    margin-top: 14px;
+    margin-top: 12px;
     margin-left: 15px;
-    height: 50px;
-    width: auto
   }
 
   .email-foto {
     margin-top: 12px;
     margin-left: 15px;
-    height: 50px;
-    width: auto
   }
 
   .footer {
@@ -1454,79 +1438,4 @@
     margin-left: 10px;
     height: auto;
     width: 50px;
-  }
-
-  .telegram-text1 {
-    font-size: 23px;
-    margin-top: 8%;
-    columns: #4D3705;
-    margin-left: 10px;
-    font-family: "Mont", sans-serif;
-    font-weight: bold;
-  }
-
-  .telegram-text2 {
-    font-size: 17px;
-    margin-left: 9px;
-    color: #4D3705;
-    margin-top: 2px;
-    font-family: "Mont", sans-serif;
-  }
-
-
-  .email-text1 {
-    font-size: 23px;
-    margin-top: 10px;
-    columns: #4D3705;
-    margin-left: 10px;
-    font-family: "Mont", sans-serif;
-    font-weight: bold;
-  }
-
-  .email-text2 {
-    font-size: 17px;
-    margin-left: 9px;
-    color: #4D3705;
-    margin-top: 2px;
-    font-family: "Mont", sans-serif;
-  }
-
-  .email-text-column {
-
-    display: flex;
-    flex-direction: column;
-
-  }
-
-
-  .send-a-post {
-
-    width: 100%;
-    height: 800px;
-    background-color: #23c9de;
-  }
-
-
-  .post-half1 {
-    width: 100%;
-    height: 90%;
-    background-color: #4D3705;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .post-half2 {
-    width: 100%;
-    height: 10%;
-    background-color: grey;
-  }
-
-
-  .send-a-post {
-    text-align: center;
-    color: white;
-    text-align: center;
-
-    font-family: "Lato", sans-serif;
-
   }
