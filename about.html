@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
-  <link rel="stylesheet" href="about-main.css" />
+  <link rel="stylesheet" href="/CSS/main.css" />
 </head>
 
 <body>
@@ -17,127 +17,93 @@
         <span class="goose">Goose</span>
       </div>
     </div>
-    <div class="button-sectie">
-      <a href="index.html">Home</a>
-      <a href="learn.html">Learn</a>
-      <a href="about.html">About</a>
-      <a href="https://www.w3schools.com">Contact</a>
-      <!-- de nav knoppen  -->
+    <nav class="button-sectie">
+      <ul>
+        <li> <a href="index.html">Home</a> </li>
+        <li> <a href="learn.html">Learn</a> </li>
+        <li> <a href="about.html">About</a> </li>
+        <li> <a href="contact.html">Contact</a> </li>
+      </ul>
+    </nav>
     </div>
+    <!-- de nav knoppen eindigen hier -->
+
     <!-- loginknop -->
     <div class="login-sectie">
       <button class="login-button">Login</button>
     </div>
   </nav>
 
+  <main>
+    <h1 class="our-heroes"> Our Heroes </h1>
+    <div class="heroes-fill"></div>
 
-  <h1 class="our-heroes"> Our Heroes </h1>
-  <div class="heroes-fill"></div>
-
-  <div class="heroes">
-    <div class="hero1">
-      <div class="press1-column">
-        <img src="imgs/1.png" alt=" John Doe" class="hero-foto1">
-        <span class="press1-text1"> John Doe </span>
-        <span class="press1-text2">Lead Programmer </span>
-        <a href="https://en.wikipedia.org/wiki/Reading" class="press1-link"> Contact → </a>
-      </div>
-     
-    </div>
-    <div class="hero2">
-      <div class="press2-column">
-        <img src="imgs/2.png" alt="Jane Doe" class="hero-foto2">
-        <span class="press2-text1"> Jane Doe </span>
-        <span class="press2-text2">CEO </span>
-        <a href="https://en.wikipedia.org/wiki/Reading" class="press2-link"> Read → </a>
-      </div>
-    </div>
-    <div class="hero3">
-      <div class="press3-column">
-        <img src="imgs/3.png" alt="Hans Erikson" class="hero-foto3">
-        <span class="press3-text1">Hans Erikson </span>
-        <span class="press3-text2">UX Dev Ops Reliability engineer
-        </span>
-        <a href="https://en.wikipedia.org/wiki/Reading" class="press3-link"> Read → </a>
-      </div>
-    </div>
-  </div> <!-- dit sluit de presses-->
-
-  <div class="heroes-fill2"></div>
-
-
-  <div class="weekly-digest">
-
-    <div class="email-balk">
-      <div class="email-text">
-
-        <span class="weekly"> Weekly Digest </span>
-        <span class="latest">Latest news in DAOs and Web3 </span>
-
-        <div class="derow">
-          <div class="email-balk2">
-            <span class="your-email"> Your email </span>
-          </div>
-          <div class="subscribe"> <span class="subscribe-text"> Subscribe </span></div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-  <div class="press-star">
-    <img src="imgs/Group 5601.png" class="s5601">
-  </div>
-
-
-  <div class="new-body"> <!-- dit is het cas object-->
-    <span class="Press"> Press </span>
-    <div class="flex-ender"> <!-- dit zorgt ervoor dat de see all knop rechts staat-->
-
-      <div class="see-pijl">
-        <span class="see-all"> See all </span>
-        <img src="imgs/Vector 936 (Stroke).png" class="vector1">
-      </div>
-    </div>
-    <div class="presses">
-      <div class="press1">
+    <div class="heroes">
+      <div class="hero1">
         <div class="press1-column">
-          <img src="imgs/decrypt.png" alt="decrypt" class="decrypt">
-          <span class="press1-text1"> Superdao Raises $10.5 Million to Build an 'All-in-One' DAO Platform </span>
-          <span class="press1-text2">Superdao aims to make it easier for online communities to build and launch DAOs
-          </span>
-          <a href="https://en.wikipedia.org/wiki/Reading" class="press1-link"> Read → </a>
+          <img src="imgs/1.png" alt=" John Doe" class="hero-foto1">
+          <span class="press1-text1"> John Doe </span>
+          <span class="press1-text2">Lead Programmer </span>
+          <a href="https://en.wikipedia.org/wiki/Reading" class="press1-link"> Contact → </a>
         </div>
+
       </div>
-      <div class="press2">
+      <div class="hero2">
         <div class="press2-column">
-          <img src="imgs/blockworks.png" alt="blockworks" class="blockworks">
-          <span class="press2-text1"> The Y Combinator of Web3 Attracts Record Number of DAO Startups </span>
-          <span class="press2-text2">DAOs and related startups made up an “overwhelming number of applicants” for a Web3
-            accelerator’s cohort this year </span>
+          <img src="imgs/2.png" alt="Jane Doe" class="hero-foto2">
+          <span class="press2-text1"> Jane Doe </span>
+          <span class="press2-text2">CEO </span>
           <a href="https://en.wikipedia.org/wiki/Reading" class="press2-link"> Read → </a>
         </div>
       </div>
-      <div class="press3">
+      <div class="hero3">
         <div class="press3-column">
-          <img src="imgs/techcrunch.png" alt="techcrunch" class="tech-crunch">
-          <span class="press3-text1">VC-backed DAO startups are racing to define what DAOs actually are </span>
-          <span class="press3-text2">Not all 'decentralized autonomous organizations' are autonomous... or decentralized
+          <img src="imgs/3.png" alt="Hans Erikson" class="hero-foto3">
+          <span class="press3-text1">Hans Erikson </span>
+          <span class="press3-text2">UX Dev Ops Reliability engineer
           </span>
           <a href="https://en.wikipedia.org/wiki/Reading" class="press3-link"> Read → </a>
         </div>
       </div>
     </div> <!-- dit sluit de presses-->
- 
-    <div class="divider1"></div>
-    <div class="podcast-sectie">
-      <span class="Press"> Podcasts </span>
+
+    <div class="heroes-fill2"></div>
+
+    <div class="about-fill"></div>
+
+
+    <div class="weekly-digest-about ">
+
+      <div class="email-balk-about ">
+        <div class="email-text-about ">
+
+          <span class="weekly-about "> Weekly Digest </span>
+          <span class="latest-about ">Latest news in DAOs and Web3 </span>
+
+          <div class="derow-about ">
+            <div class="email-balk2-about ">
+              <span class="your-email-about "> Your email </span>
+            </div>
+            <div class="subscribe-about "> <span class="subscribe-text-about "> Subscribe </span></div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="press-star">
+      <img src="imgs/Group 5601.png" class="s5601">
+    </div>
+
+
+    <div class="new-body-about"> <!-- dit is het cas object-->
+      <span class="Press"> Press </span>
       <div class="flex-ender"> <!-- dit zorgt ervoor dat de see all knop rechts staat-->
 
         <div class="see-pijl">
@@ -145,48 +111,91 @@
           <img src="imgs/Vector 936 (Stroke).png" class="vector1">
         </div>
       </div>
-
       <div class="presses">
-        <div class="podcast1">
-          <div class="podcast1-column">
-            <img src="imgs/POMP.png" alt="pomp" class="pomp">
-            <span class="podcast1-text1"> Understanding DAOs with Yury Lifshits </span>
-            <span class="podcast1-text2">The Pomp Podcast </span>
-            <span class="podcast1-text3">by Anthony Pompliano </span>
-            <a href="https://en.wikipedia.org/wiki/Reading" class="podcast1-link"> Listen → </a>
-          </div>
-        </div>
-        <div class="podcast2">
-          <div class="podcast2-column">
-            <img src="imgs/unstoppable.png" alt="unstoppable" class="unstoppable">
-            <span class="podcast2-text1"> Everything You Need to Know About DAOs with Yury Lifshits from Superdao
+        <div class="press1">
+          <div class="press1-column">
+            <img src="imgs/decrypt.png" alt="decrypt" class="decrypt">
+            <span class="press1-text1"> Superdao Raises $10.5 Million to Build an 'All-in-One' DAO Platform </span>
+            <span class="press1-text2">Superdao aims to make it easier for online communities to build and launch DAOs
             </span>
-            <span class="podcast2-text2">The Unstoppable Podcast </span>
-            <span class="podcast2-text3">by Josh Gordon </span>
-            <a href="https://en.wikipedia.org/wiki/Reading" class="podcast2-link"> Watch → </a>
+            <a href="https://en.wikipedia.org/wiki/Reading" class="press1-link"> Read → </a>
           </div>
         </div>
-        <div class="podcast3">
-          <div class="podcast3-column">
-            <img src="imgs/zima.png" alt="zima podcast" class="zima">
-            <span class="podcast3-text1">Yury Lifshits - Superdao: The “Shopify” for DAOs </span>
-            <span class="podcast3-text2">Zima Red </span>
-            <span class="podcast3-text3">by Andrew Stainwold </span>
-            <a href="https://en.wikipedia.org/wiki/Reading" class="podcast3-link"> Listen → </a>
+        <div class="press2">
+          <div class="press2-column">
+            <img src="imgs/blockworks.png" alt="blockworks" class="blockworks">
+            <span class="press2-text1"> The Y Combinator of Web3 Attracts Record Number of DAO Startups </span>
+            <span class="press2-text2">DAOs and related startups made up an “overwhelming number of applicants” for a
+              Web3
+              accelerator’s cohort this year </span>
+            <a href="https://en.wikipedia.org/wiki/Reading" class="press2-link"> Read → </a>
           </div>
         </div>
-      </div> <!-- dit sluit de podcastes-->
-    </div> <!-- dit sluit de podcast-->
-    <div class="divider2"></div>
+        <div class="press3">
+          <div class="press3-column">
+            <img src="imgs/techcrunch.png" alt="techcrunch" class="tech-crunch">
+            <span class="press3-text1">VC-backed DAO startups are racing to define what DAOs actually are </span>
+            <span class="press3-text2">Not all 'decentralized autonomous organizations' are autonomous... or
+              decentralized
+            </span>
+            <a href="https://en.wikipedia.org/wiki/Reading" class="press3-link"> Read → </a>
+          </div>
+        </div>
+      </div> <!-- dit sluit de presses-->
 
-    <div class="divider3"></div>
+      <div class="divider1"></div>
+      <div class="podcast-sectie">
+        <span class="Press"> Podcasts </span>
+        <div class="flex-ender"> <!-- dit zorgt ervoor dat de see all knop rechts staat-->
+
+          <div class="see-pijl">
+            <span class="see-all"> See all </span>
+            <img src="imgs/Vector 936 (Stroke).png" class="vector1">
+          </div>
+        </div>
+
+        <div class="presses">
+          <div class="podcast1">
+            <div class="podcast1-column">
+              <img src="imgs/POMP.png" alt="pomp" class="pomp">
+              <span class="podcast1-text1"> Understanding DAOs with Yury Lifshits </span>
+              <span class="podcast1-text2">The Pomp Podcast </span>
+              <span class="podcast1-text3">by Anthony Pompliano </span>
+              <a href="https://en.wikipedia.org/wiki/Reading" class="podcast1-link"> Listen → </a>
+            </div>
+          </div>
+          <div class="podcast2">
+            <div class="podcast2-column">
+              <img src="imgs/unstoppable.png" alt="unstoppable" class="unstoppable">
+              <span class="podcast2-text1"> Everything You Need to Know About DAOs with Yury Lifshits from Superdao
+              </span>
+              <span class="podcast2-text2">The Unstoppable Podcast </span>
+              <span class="podcast2-text3">by Josh Gordon </span>
+              <a href="https://en.wikipedia.org/wiki/Reading" class="podcast2-link"> Watch → </a>
+            </div>
+          </div>
+          <div class="podcast3">
+            <div class="podcast3-column">
+              <img src="imgs/zima.png" alt="zima podcast" class="zima">
+              <span class="podcast3-text1">Yury Lifshits - Superdao: The “Shopify” for DAOs </span>
+              <span class="podcast3-text2">Zima Red </span>
+              <span class="podcast3-text3">by Andrew Stainwold </span>
+              <a href="https://en.wikipedia.org/wiki/Reading" class="podcast3-link"> Listen → </a>
+            </div>
+          </div>
+        </div> <!-- dit sluit de podcastes-->
+      </div> <!-- dit sluit de podcast-->
+      <div class="divider2"></div>
+
+      <div class="divider3"></div>
 
 
 
+  </main> <!-- MAIN END -->
 
 
   </div> <!--dit sluit de newbody -->
-  <div class="footer">
+  <footer class="footer">
     <div class="footer1"> </div>
 
     <div class="footer2">
@@ -206,11 +215,9 @@
         <img src="imgs/discordfooter.png" class="discord-footer" alt="discord">
       </div>
     </div>
-  </div>
+  </footer>
 
 
 </body>
 
 </html>
-
-<!--elementen gebruiken wat het is, <h1 nav ul etc> naamgeving kebab, formattering fixen>   -->
